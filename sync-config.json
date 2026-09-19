@@ -1,0 +1,6 @@
+{
+  "destinations": ["北海道", "日本", "韓國", "越南"],
+  "maxPatternsPerDestination": 18,
+  "requestDelaySeconds": 1.5,
+  "timeoutSeconds": 30
+}
