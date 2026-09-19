@@ -1,0 +1,13 @@
+旅程提案所｜GitHub 網頁程式
+
+1. 將專案內容上傳至 GitHub 儲存庫根目錄，必須包含 .github 資料夾。
+2. Settings → Pages → Source 選 GitHub Actions。
+3. Actions → 更新官網資料並發布 → Run workflow。
+4. 成功後使用 GitHub 顯示的網站網址。
+
+連線更新：每 6 小時嘗試同步可樂公開官網，可於 Actions 手動更新。
+離線使用：第一次連線開啟後等待「已完成離線快取」，或下載含目前資料的 HTML。
+不是即時庫存系統；離線不可更新官網、開啟官網或傳送 LINE。
+預設只同步北海道、日本、韓國、越南，每個目的地最多 18 個行程。
+修改目的地請編輯 sync-config.json。
+完整說明請看 README.md。
